@@ -12,6 +12,7 @@ function App() {
     <div>
       <Router>
         <Navbar/>
+         
 
         <Routes>
 

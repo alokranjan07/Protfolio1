@@ -1,0 +1,31 @@
+.nav{
+    
+        display: flex;
+        justify-content: center;
+        height: 60px; /* Adjust height as needed */
+        background-color: #2C3E50;
+        
+      
+    
+
+}
+.ul{
+        display: flex;
+        align-items: center;
+        margin-left: 50px;
+}
+.ul li{
+        align-items: center;
+        justify-content:  space-between;
+        gap: 30px;
+        list-style: none;
+       
+       
+}
+.link{
+        text-decoration: none;
+        margin: 20px 30px;
+       
+        color: #ECF0F1;
+       
+}
