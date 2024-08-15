@@ -1,12 +1,17 @@
 import React from 'react'
 import  { Link }  from 'react-router-dom'
 import './Navbar.css'
+import Alok from '/src/assets/Alok.png'
 function Navbar() {
   return (
     <div className="nav">
+    <div className="logo" >
+    <img src={Alok} alt="logo" id="logo"/>
+
+      </div>
      <ul className="ul">
       <li>
-      <Link to='home' className="link"> Home</Link>
+      <Link to='/' className="link"> Home</Link>
       </li>
       <li>
 
